@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Înscrie-te în campanie, câștigă premii, campanie marca Syscom Digital, Your Interactive Marketing Team"
+    />
+    <meta name="keywords" content="Syscom Digital, premii, campanie" />
+    <meta name="author" content="Syscom Digital, Your Interactive Marketing Team" />
+    <title>Câștigă premii pentru a-ți ține promisiunile — Syscom Digital, Your Interactive Marketing Team</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="../src/css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <a href="/home" aria-label="Pagina de start">
+          <img class="header__logo" src="../src/img/logo.png" alt="Syscom Digital"
+        /></a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#" aria-label="Politica de confidențialitate">Politica de confidentialitate</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#" aria-label="Politica de cookies">Politica de cookies</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="intro__container">
+          <img class="intro__illustration" src="../src/img/win-prizes.png" alt="Ilustratie" />
+          <img class="intro__prizes" src="../src/img/prizes.png" alt="Premiul săptămânal un voucher" />
+          <div class="intro__links">
+            <a
+              href="#registration"
+              class="button button-green intro__link intro__link-one"
+              aria-label="Înscrie-te în campanie"
+              >Înscrie-te în campanie</a
+            >
+            <a
+              href="/detalii"
+              class="button button-light intro__link intro__link-two"
+              aria-label="Află mai multe despre campanie"
+              >Află mai multe</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="registration" id="registration">
+        <div class="registration-container">
+          <h1 class="registration-title">Înscrie-te în campanie</h1>
+          <form id="form" action="" method="POST" class="form" novalidate>
+            <div class="form-container">
+              <div class="form-control">
+                <label for="bon_numar" class="form-label">Înscrie numărul bonului fiscal:*</label>
+                <input type="text" placeholder="Număr bon fiscal" id="bon_numar" name="bon_numar" spellcheck="false" />
+              </div>
+              <div class="form-row">
+                <div class="form-col">
+                  <label for="prenume" class="form-label">Prenume:*</label>
+                  <input type="text" placeholder="Prenume" id="prenume" name="prenume" spellcheck="false" />
+                </div>
+                <div class="form-col">
+                  <label for="nume" class="form-label">Nume:*</label>
+                  <input type="text" placeholder="Nume" id="nume" name="nume" spellcheck="false" />
+                </div>
+              </div>
+              <div class="form-control">
+                <label for="telefon" class="form-label">Telefon mobil:*</label>
+                <input type="text" placeholder="07xx.xxx.xxx" id="telefon" name="telefon" spellcheck="false" />
+              </div>
+              <div class="form-control">
+                <label for="email" class="form-label">Adresă de e-mail:*</label>
+                <input type="text" placeholder="mail@gmail.com" id="email" name="email" spellcheck="false" />
+              </div>
+            </div>
+            <div class="form-check-container">
+              <div class="form-check">
+                <input type="radio" id="acord_regulament_da" class="radio" name="acord_regulament" value="1" checked />
+                <label for="acord_regulament_da" class="form-label form-label-radio">Da</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" id="acord_regulament_nu" class="radio" name="acord_regulament" value="2" />
+                <label for="acord_regulament_nu" class="form-label form-label-radio">Nu</label>
+              </div>
+              <p class="accept-terms">Acord Regulament: Am citit și sunt de acord cu Regulamentul Companiei</p>
+            </div>
+            <div class="form-sending-animation">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <p class="success-result">
+              <svg
+                aria-hidden="true"
+                class="success-icon"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <use xlink:href="#success-icon"></use>
+              </svg>
+              Datele au fost trimise cu succes.
+            </p>
+            <button class="button button-green" type="submit">Trimite</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer role="contentinfo" class="footer">
+      <p class="footer__information">
+        Promoția se desfășoară în perioada zz.ll.aaaa – zz.ll.aaaa. Toți participanții la promoției trebuie să păstreze
+        bonul de casă ca dovadă a achiziției produselor. Un cod unic poate fi folosit o singură dată, indiferent de
+        numărul produselor achiziționate pe acel bon. Câștigătorii vor fi contactați telefonic, pe numărul de telefon cu
+        care s-au înscris în Campanie.
+      </p>
+      <a
+        href="https://www.facebook.com/SyscomDigital.ro"
+        rel="noopener noreferrer"
+        class="button footer__social-facebook"
+        aria-label="Urmărește-ne pe Facebook"
+        ><svg
+          class="facebook-icon"
+          width="9"
+          height="18"
+          viewBox="0 0 9 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <use xlink:href="#facebook-icon"></use>
+        </svg>
+        <svg
+          width="1"
+          height="30"
+          viewBox="0 0 1 30"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <use xlink:href="#line-icon"></use>
+        </svg>
+        Urmărește-ne</a
+      >
+      <p class="footer__copyright">&copy;yyyy Syscom Digital. All Rights Reserved</p>
+    </footer>
+    <div class="overlay"></div>
+    <div class="modal" role="dialog" aria-labelledby="modal__heading" aria-describedby="dialogInfo" tabindex="-1">
+      <div class="modal__inner">
+        <h2 id="modal__heading" class="modal__heading">Rezultat inscriere</h2>
+        <div class="modal__result" id="dialogInfo">
+          MESAJUL DIN API AICI
+        </div>
+        <button type="button" class="button button-green button-modal modal__button" aria-label="Back to the main page">
+          Back to the main page
+        </button>
+      </div>
+    </div>
+    <svg aria-hidden="true" style="display: none;">
+      <symbol id="success-icon" viewBox="0 0 18 18">
+        <path
+          d="M18 9.00029C17.9999 10.7803 17.472 12.5204 16.4831 14.0004C15.4941 15.4804 14.0884 16.6339 12.4439 17.315C10.7993 17.9962 8.98972 18.1743 7.24391 17.827C5.49809 17.4797 3.89446 16.6225 2.63583 15.3638C1.3772 14.105 0.520091 12.5014 0.17288 10.7555C-0.17433 9.00969 0.00395652 7.20009 0.685198 5.55558C1.36644 3.91107 2.52004 2.5055 4.00011 1.51661C5.48019 0.52773 7.22026 -5.74228e-05 9.00029 4.68593e-09C10.1822 3.81351e-05 11.3525 0.232869 12.4444 0.685196C13.5363 1.13752 14.5285 1.80049 15.3642 2.63624C16.1999 3.472 16.8628 4.46417 17.315 5.55612C17.7673 6.64806 18 7.81839 18 9.00029V9.00029ZM7.95992 13.7642L14.636 7.08805C14.6901 7.03417 14.7329 6.97016 14.7622 6.89968C14.7914 6.8292 14.8065 6.75364 14.8065 6.67733C14.8065 6.60103 14.7914 6.52547 14.7622 6.45499C14.7329 6.38451 14.6901 6.3205 14.636 6.26662L13.8146 5.45118C13.7608 5.39719 13.6969 5.35434 13.6265 5.32511C13.5561 5.29587 13.4807 5.28082 13.4045 5.28082C13.3283 5.28082 13.2528 5.29587 13.1824 5.32511C13.112 5.35434 13.0481 5.39719 12.9943 5.45118L7.54925 10.8964L5.00683 8.34794C4.89769 8.23941 4.75003 8.17848 4.59611 8.17848C4.44219 8.17848 4.29453 8.23941 4.18539 8.34794L3.36396 9.17422C3.25542 9.28336 3.1945 9.43102 3.1945 9.58494C3.1945 9.73885 3.25542 9.88651 3.36396 9.99565L7.13868 13.769C7.19256 13.823 7.25657 13.8659 7.32705 13.8952C7.39753 13.9244 7.47308 13.9395 7.54939 13.9395C7.6257 13.9395 7.70126 13.9244 7.77174 13.8952C7.84221 13.8659 7.90623 13.823 7.96011 13.769L7.95992 13.7642Z"
+          fill="var(--first-color)"
+        />
+      </symbol>
+      <symbol id="facebook-icon" viewBox="0 0 9 18">
+        <path
+          d="M6 6V4.2C6 3.42 6.18 3 7.44 3H9V0H6.6C3.6 0 2.4 1.98 2.4 4.2V6H0V9H2.4V18H6V9H8.64L9 6H6Z"
+          fill="#2A4162"
+        />
+      </symbol>
+      <symbol id="line-icon" viewBox="0 0 1 30">
+        <rect width="1" height="30" fill="#304B71" />
+      </symbol>
+    </svg>
+    <script src="../src/js/index.js"></script>
+  </body>
+</html>
