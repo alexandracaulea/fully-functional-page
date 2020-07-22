@@ -13,6 +13,8 @@ Even if these were not required by the challenge, I decided to:
 
 - Implement a CSS loader, which was displayed to the user while waiting to receive the response from the server.
 - If the response received from the server was ok, I decided to not display the modal window but instead show a message to the user that the data sent to the server was ok.
+- In my local environment I've decided to use environment variables in order to avoid exposing the URL and the api key provided by the company.
+- The code was deployed on Netlify where I also configured the environment variables in order to send data successfully.
 
 #### Installation
 
